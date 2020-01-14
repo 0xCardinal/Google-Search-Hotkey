@@ -18,10 +18,10 @@ And following Python modules are required and must be installed,
 * selenium
   ```shell pip3 install selenium ```
   Selenium also requires web drivers to get control over web browsers.
-    Chrome:	https://sites.google.com/a/chromium.org/chromedriver/downloads <br />
-    Edge:	https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/ <br />
-    Firefox:	https://github.com/mozilla/geckodriver/releases <br />
-    Safari:	https://webkit.org/blog/6900/webdriver-support-in-safari-10/ <br />
+   > Chrome:	https://sites.google.com/a/chromium.org/chromedriver/downloads <br />
+   > Edge:	https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/ <br />
+   > Firefox:	https://github.com/mozilla/geckodriver/releases <br />
+   > Safari:	https://webkit.org/blog/6900/webdriver-support-in-safari-10/ <br />
     
    Set environment paths for respective drivers.
    Note: if chromedriver is not in your path, you’ll need to add it here
