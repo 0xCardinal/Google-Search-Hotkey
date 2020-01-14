@@ -22,7 +22,7 @@ And following Python modules are required and must be installed,
   ```shell 
   pip3 install selenium 
   ```
-  Selenium also requires web drivers to get control over web browsers.
+  Selenium also requires web drivers to get control over web browsers. WebDrivers can be downloaded from the below-mwntioned links,
    > Chrome:	https://sites.google.com/a/chromium.org/chromedriver/downloads <br />
    > Edge:	https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/ <br />
    > Firefox:	https://github.com/mozilla/geckodriver/releases <br />
