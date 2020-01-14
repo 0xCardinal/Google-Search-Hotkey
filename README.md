@@ -33,7 +33,11 @@ And following Python modules are required and must be installed,
    ```python 
    driver = webdriver.Chrome(r'C:\Python\chromedriver.exe')
    ```
-  
+## Usage
+This tool when binded with the shortcut keys can be very much helpful in order to search stuff on Google. <br> <br>
+For efficient use of this script, it is recommended to create keyboard shortcut for running the script. 
+Copy `Ctrl+C` the text you want to search for and press the specified hotkeys to directly search on Google. <br> <br>
+This tool searches for the last copied text on internet using Google and is a major time saver.
 
 ## Author
 **Kumar Ashwin**
