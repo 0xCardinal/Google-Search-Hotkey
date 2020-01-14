@@ -39,6 +39,16 @@ For efficient use of this script, it is recommended to create keyboard shortcut 
 Copy `Ctrl+C` the text you want to search for and press the specified hotkeys to directly search on Google. <br> <br>
 This tool searches for the last copied text on internet using Google and is a major time saver.
 
+## Creating Shortcuts
+**Windows**
+> Create a batch file (MyScript.bat) with `python3 /path/to/search.py` in it
+and make a shortcut of the batch file on Desktop and specify the shortcut key in the Properties section.
+
+![picture alt](https://i.stack.imgur.com/eMpiM.png "Bat Shortcut Properties")
+
+**Linux**
+> Go to Settings → Keyboards and add command `python3 /path/to/search.py` and shortcut key in there.
+
 ## Author
 **Kumar Ashwin**
 Email - **krashwin00@gmail.com**
