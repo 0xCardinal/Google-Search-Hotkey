@@ -10,22 +10,29 @@ Clone the repository and specify a shortcut key for running the following comman
 
 ## Prerequisites
 `python3` must be installed in your system.
+<br />
 
 And following Python modules are required and must be installed,
 * pyperclip - used for accessing the clipboard
-  ```shell pip3 install pyperclip ```
+  ```shell 
+  pip3 install pyperclip 
+  ```
 
 * selenium
-  ```shell pip3 install selenium ```
+  ```shell 
+  pip3 install selenium 
+  ```
   Selenium also requires web drivers to get control over web browsers.
    > Chrome:	https://sites.google.com/a/chromium.org/chromedriver/downloads <br />
    > Edge:	https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/ <br />
    > Firefox:	https://github.com/mozilla/geckodriver/releases <br />
    > Safari:	https://webkit.org/blog/6900/webdriver-support-in-safari-10/ <br />
     
-   Set environment paths for respective drivers.
+   Set environment paths for respective drivers. <br />
    Note: if chromedriver is not in your path, you’ll need to add it here
-   ```python driver = webdriver.Chrome(r'C:\Python\chromedriver.exe')```
+   ```python 
+   driver = webdriver.Chrome(r'C:\Python\chromedriver.exe')
+   ```
   
 
 ## Author
