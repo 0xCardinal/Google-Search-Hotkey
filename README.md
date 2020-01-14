@@ -12,10 +12,10 @@ Clone the repository and specify a shortcut key for running the following comman
 `python3` must be installed in your system.
 
 And following Python modules are required and must be installed,
-*pyperclip - used for accessing the clipboard
+* pyperclip - used for accessing the clipboard
   ```shell pip3 install pyperclip ```
 
-*selenium
+* selenium
   ```shell pip3 install selenium ```
   Selenium also requires web drivers to get control over web browsers.
     Chrome:	https://sites.google.com/a/chromium.org/chromedriver/downloads
