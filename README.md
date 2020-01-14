@@ -50,5 +50,5 @@ and make a shortcut of the batch file on Desktop and specify the shortcut key in
 > Go to Settings → Keyboards and add command `python3 /path/to/search.py` and shortcut key in there.
 
 ## Author
-**Kumar Ashwin**
+**Kumar Ashwin** <br>
 Email - **krashwin00@gmail.com**
