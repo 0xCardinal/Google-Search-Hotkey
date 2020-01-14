@@ -30,9 +30,9 @@ And following Python modules are required and must be installed,
     
    Set environment paths for respective drivers. <br />
    E.g.: if chromedriver is not in your path, you’ll need to add it here
-   ```python 
-   driver = webdriver.Chrome(r'C:\Python\chromedriver.exe')
-   ```
+     ```python 
+     driver = webdriver.Chrome(r'C:\Python\chromedriver.exe')
+     ```
 ## Usage
 This tool when binded with the shortcut keys can be very much helpful in order to search stuff on Google. <br> <br>
 For efficient use of this script, it is recommended to create keyboard shortcut for running the script. 
