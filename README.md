@@ -6,7 +6,6 @@ Clone the repository and specify a shortcut key for running the following comman
 ```shell 
  python3 /path/to/search.py
 ```
-`/path/to/the/directory/` is the directory location, that needs to be uncluttered.
 
 ## Prerequisites
 `python3` must be installed in your system.
