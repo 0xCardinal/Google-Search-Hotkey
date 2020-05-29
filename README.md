@@ -17,21 +17,10 @@ And following Python modules are required and must be installed,
   pip3 install pyperclip 
   ```
 
-* selenium
-  ```shell 
-  pip3 install selenium 
-  ```
-  Selenium also requires web drivers to get control over web browsers. <br/>WebDrivers can be downloaded from the below-mentioned links,
-   > Chrome:	https://sites.google.com/a/chromium.org/chromedriver/downloads <br />
-   > Edge:	https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/ <br />
-   > Firefox:	https://github.com/mozilla/geckodriver/releases <br />
-   > Safari:	https://webkit.org/blog/6900/webdriver-support-in-safari-10/ <br />
-    
-   Set environment paths for respective drivers. <br />
-   E.g.: if chromedriver is not in your path, you’ll need to add it here
-     ```python 
-     driver = webdriver.Chrome(r'C:\Python\chromedriver.exe')
-     ```
+* webbrowser - opens a new tab in existing browser (if open) otherwise opens a new window in your default browser
+  
+  > You don't have to install it specifically, it is already present in Python's standard library.
+  
 ## Usage
 This tool when binded with the shortcut keys can be very much helpful in order to search stuff on Google. <br> <br>
 For efficient use of this script, it is recommended to create keyboard shortcut for running the script. 
