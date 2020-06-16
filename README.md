@@ -37,6 +37,13 @@ and make a shortcut of the batch file on Desktop and specify the shortcut key in
 **Linux**
 > Go to Settings → Keyboards and add command `python3 /path/to/search.py` and shortcut key in there.
 
+## Troubleshooting
+**Linux**
+If `Pyperclip could not find a copy/paste mechanism for your system.` error occurs, then install the following module and re-run the tool.
+```shell
+sudo apt install xsel
+```
+
 ## Author
 **Kumar Ashwin** <br>
 Email - **krashwin00@gmail.com**
