@@ -1,14 +1,21 @@
-# Google-Search-Hotkey
-Automation using Python : Search Google using simple keyboard shortcut.
+# Google-Search-Hotkey v3.0
+Search Google using simple keyboard shortcut.
 
 ## Getting Started
-Clone the repository and specify a shortcut key for running the following command,
-```shell 
- python3 /path/to/search.py
+If you have go installed,
 ```
+go get github.com/krAshwin/Google-Search-Hotkey
+```
+and you are good to go!
 
+You can also download the precompiled binaries from [Linux](https://github.com/krAshwin/Google-Search-Hotkey/blob/master/linux/Google-Search-Hotkey) and [Windows](https://github.com/krAshwin/Google-Search-Hotkey/blob/master/windows/Google-Search-Hotkey.exe) directories.
 ## Prerequisites
-`python3` must be installed in your system.
+For linux - xclip, xsel or wl-clipboard, any one must be installed.
+```shell
+sudo apt install xclip
+sudo apt install xsel
+sudo apt install wl-clipboard
+```
 <br />
 
 And following Python modules are required and must be installed,
@@ -16,10 +23,6 @@ And following Python modules are required and must be installed,
   ```shell 
   pip3 install pyperclip 
   ```
-
-* webbrowser - opens a new tab in existing browser (if open) otherwise opens a new window in your default browser
-  
-  > You don't have to install it specifically, it is already present in Python's standard library.
   
 ## Usage
 This tool when binded with the shortcut keys can be very much helpful in order to search stuff on Google. <br> <br>
