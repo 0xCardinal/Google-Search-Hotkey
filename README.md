@@ -1,48 +1,40 @@
-# Google-Search-Hotkey
-Automation using Python : Search Google using simple keyboard shortcut.
+# Google-Search-Hotkey v3.0
+Search Google using simple keyboard shortcut.
 
 ## Getting Started
-Clone the repository and specify a shortcut key for running the following command,
-```shell 
- python3 /path/to/search.py
+If you have go installed,
 ```
+go get github.com/krAshwin/Google-Search-Hotkey
+```
+and you are good to go!
 
+You can also download the precompiled binaries from [Linux](https://github.com/krAshwin/Google-Search-Hotkey/blob/master/linux/Google-Search-Hotkey) and [Windows](https://github.com/krAshwin/Google-Search-Hotkey/blob/master/windows/Google-Search-Hotkey.exe) directories.
 ## Prerequisites
-`python3` must be installed in your system.
-<br />
-
-And following Python modules are required and must be installed,
-* pyperclip - used for accessing the clipboard
-  ```shell 
-  pip3 install pyperclip 
-  ```
-
-* webbrowser - opens a new tab in existing browser (if open) otherwise opens a new window in your default browser
-  
-  > You don't have to install it specifically, it is already present in Python's standard library.
+For linux - xclip, xsel or wl-clipboard, any one must be installed.
+```shell
+sudo apt install xclip
+sudo apt install xsel
+sudo apt install wl-clipboard
+```
   
 ## Usage
+I have migrated this code on Go, and have added some additional functionality.
+### Release Notes
+1. If a URL is identified in the clipboard or passed along with the tool, it directly navigates to the specified URL.
+2. Support for Mac OS.
+
 This tool when binded with the shortcut keys can be very much helpful in order to search stuff on Google. <br> <br>
 For efficient use of this script, it is recommended to create keyboard shortcut for running the script. 
-Copy `Ctrl+C` the text you want to search for and press the specified hotkeys to directly search on Google. <br> <br>
+Copy the text you want to search for and press the specified hotkeys to directly search on Google. <br> <br>
 This tool searches for the last copied text on internet using Google and is a major time saver.
 
 ## Creating Shortcuts
 **Windows**
-> Create a batch file (MyScript.bat) with `python3 /path/to/search.py` in it
-and make a shortcut of the batch file on Desktop and specify the shortcut key in the Properties section.
-
-![picture alt](https://i.stack.imgur.com/eMpiM.png "Bat Shortcut Properties")
+> Create a shortcut of the windows' version of tool and make a shortcut of the file on Desktop and specify the shortcut key in the Properties section. And maybe hide it if you don't need to see it often ;)
 
 **Linux**
-> Go to Settings → Keyboards and add command `python3 /path/to/search.py` and shortcut key in there.
+> Go to Settings → Keyboards and add command `Google-Search-Hotkey` and shortcut key in there.
 
-## Troubleshooting
-**Linux**
-If `Pyperclip could not find a copy/paste mechanism for your system.` error occurs, then install the following module and re-run the tool.
-```shell
-sudo apt install xsel
-```
 
 ## Author
 **Kumar Ashwin** <br>
