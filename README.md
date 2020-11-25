@@ -8,9 +8,9 @@ go get github.com/krAshwin/Google-Search-Hotkey
 ```
 and you are good to go!
 
-You can also download the precompiled binaries from [Linux](https://github.com/krAshwin/Google-Search-Hotkey/blob/master/linux/Google-Search-Hotkey) and [Windows](https://github.com/krAshwin/Google-Search-Hotkey/blob/master/windows/Google-Search-Hotkey.exe) directories.
+You can also download the precompiled binaries from [Linux](https://github.com/krAshwin/Google-Search-Hotkey/raw/master/linux/Google-Search-Hotkey), [Windows](https://github.com/krAshwin/Google-Search-Hotkey/raw/master/windows/Google-Search-Hotkey.exe) or [Mac](https://github.com/krAshwin/Google-Search-Hotkey/raw/master/mac/Google-Search-Hotkey) directories.
 ## Prerequisites
-For linux - xclip, xsel or wl-clipboard, any one must be installed.
+**For linux** - xclip, xsel or wl-clipboard, any one must be installed.
 ```shell
 sudo apt install xclip
 sudo apt install xsel
