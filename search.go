@@ -1,3 +1,7 @@
+// Objective - Google-Search-Hotkey - Read more at github.com/krAshwin/Google-Search-Hotkey
+// Author - Kumar Ashwin
+// Mail - connect@krash.dev
+
 package main
 
 import (
@@ -30,6 +34,7 @@ func openbrowser(url string) {
 	}
 }
 
+// URL identification - basic comparision
 func search(url string) {
 	if strings.HasPrefix(url, "https://") || strings.HasPrefix(url, "http://") {
 		openbrowser(url)
